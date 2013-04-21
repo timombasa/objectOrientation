@@ -1,4 +1,4 @@
-package main;
+package main.java;
 
 public class Rectangle {
 
@@ -10,7 +10,15 @@ public class Rectangle {
         this.width = width;
     }
 
+    protected void setLength (int length) {
+        this.length = length;
+    }
+
     public int getArea() {
         return length * width;
+    }
+
+    protected void setWidth(int width) {
+        this.width = width;
     }
 }
