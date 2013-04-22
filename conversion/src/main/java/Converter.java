@@ -2,17 +2,29 @@ package src.main.java;
 
 public class Converter{
 
-    private int srcAmount;
-    private String srcUnit;
-    private String destUnit;
+    private int sourceAmount;
+    private String sourceUnit;
+    private String targetUnit;
 
-    public Converter(int srcAmount,String srcUnit,String destUnit) {
-        this.srcAmount = srcAmount;
-        this.srcUnit = srcUnit;
-        this.destUnit = destUnit;
+    public Converter(int sourceAmount, String sourceUnit, String targetUnit) {
+        this.sourceAmount = sourceAmount;
+        this.sourceUnit = sourceUnit;
+        this.targetUnit = targetUnit;
     }
 
-    public int convertTableSpoonToTeaSpoons(int tablespoon) {
+    public int getSourceAmount() {
+        return sourceAmount;
+    }
+
+    public String getSourceUnit() {
+        return sourceUnit;
+    }
+
+    public String getTargetUnit() {
+        return targetUnit;
+    }
+
+    public int convertTableSpoonsToTeaSpoons(int tablespoon) {
         return tablespoon * 3;
     }
 }
