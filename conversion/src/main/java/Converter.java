@@ -1,30 +1,11 @@
 package src.main.java;
 
-public class Converter{
-
-    private int sourceAmount;
-    private String sourceUnit;
-    private String targetUnit;
-
-    public Converter(int sourceAmount, String sourceUnit, String targetUnit) {
-        this.sourceAmount = sourceAmount;
-        this.sourceUnit = sourceUnit;
-        this.targetUnit = targetUnit;
-    }
-
-    public int getSourceAmount() {
-        return sourceAmount;
-    }
-
-    public String getSourceUnit() {
-        return sourceUnit;
-    }
-
-    public String getTargetUnit() {
-        return targetUnit;
-    }
-
-    public int convertTableSpoonsToTeaSpoons(int tablespoon) {
-        return tablespoon * 3;
-    }
+/**
+ * Created with IntelliJ IDEA.
+ * User: Thoughtworks
+ * Date: 4/28/13
+ * Time: 9:11 PM
+ * To change this template use File | Settings | File Templates.
+ */
+public class Converter {
 }
